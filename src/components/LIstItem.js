@@ -7,7 +7,7 @@ export default function LIstItem(props) {
       <p className="text-[18px] font-semibold">{props.name}</p>
       <div className="flex justify-end">
         <Button text="Edit" backgroundColor="#228C22" onClick={props.update}/>
-        <Button text="Delete" backgroundColor="#F94C66" onClick={props.delete}/>
+        <Button text="Delete" backgroundColor="#CC0202" onClick={props.delete}/>
       </div>
     </div>
   );
